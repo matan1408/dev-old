@@ -1,0 +1,26 @@
+h1{
+    color: brown;
+    text-align: center;
+}
+.box{
+    position: relative;
+    height: 250px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    margin: 100px;
+   padding-left: 10px;
+    border-radius: 20px;
+}
+.box h3{
+
+    font-size: 30px;
+    color: green;
+}
+.box img{
+    position: absolute;
+    top: -10%;
+    right: -5%; 
+    width: 55px;
+    height: 55px;
+}

@@ -1,0 +1,81 @@
+nav{
+    background-color: black;
+}
+.mh1{ 
+    height: 70px;
+    width: 70px;
+    float: right;
+}
+.green .mh2{ 
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 0px;
+    right: -10px;
+}
+
+ .regular .mh3{ 
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 0px;
+    right: -10px;
+    }
+
+nav a{
+   border: 2px solid green;
+    text-align: right;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+   text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    background-color: green;
+    color: white;
+    
+}
+h1:hover{
+    color: black;
+}
+.green{
+    display: inline-block;
+    border: 2px solid green;
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+}
+
+.regular{
+    display: inline-block;
+    border: 2px solid black;
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+}
+.green h3{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+.regular h3{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.green li{
+    color: green;
+    padding: 5px;
+}
+.regular li{
+    padding: 5px;
+    
+}
